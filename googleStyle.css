@@ -1,0 +1,163 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.header
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.header .menu_top_izq
+{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.header .menu_top_der
+{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.header div .link_option a
+{
+    color: black;
+    text-decoration:none;  
+}
+
+div div .link_option a:hover
+{
+    text-decoration:underline;
+}
+
+div div .link_option a #cambioImagen:hover
+{
+    opacity: 0;
+    background-image: url("cuadro2.png");
+}
+
+div div .boton_option a
+{
+    background-color: #2B7DE9; 
+    color: white;
+    border-radius: 1px;
+    text-decoration:none; 
+}
+
+div div .boton_option a:hover
+{
+    background-color:blue;
+}
+
+.footer
+{
+    width: 100%;
+    height:100%;
+    display: flex;
+    background-color: lightgrey;
+}
+
+.footer .menu_bottom_izq
+{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.footer .menu_bottom_der
+{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.footer div .link_option a
+{
+    color: gray;
+    text-decoration:none;  
+}
+
+.center
+{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+}
+
+.center .letreroGoogle
+{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.center .letreroGoogle .letraRoja
+{
+    color: #EA4335;
+}
+
+.center .letreroGoogle .letraAzul
+{
+    color: #4285F4;
+}
+
+.center .letreroGoogle .letraAmarilla
+{
+    color: #FBBC05;
+}
+
+.center .letreroGoogle .letraVerde
+{
+    color: #34A853;
+}
+
+.input
+{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.input input
+{
+    border-radius: 50px 50px 50px 50px;
+    width: 300px;
+    height: 40px;
+    border-color: grey;
+}
+
+.center .botones
+{   
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    column-gap: 10px;
+    gap: 10px;
+}
+
+footer
+{
+    background: gray;
+}
